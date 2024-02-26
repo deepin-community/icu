@@ -1,3 +1,0 @@
-# libicu73 installs multiple shared libraries, none of which is
-# actually called libicu.so.73, but all of which are libicu*.so.73 .
-libicu73: package-name-doesnt-match-sonames libicudata73 libicui18n73 libicuio73 libicutest73 libicutu73 libicuuc73
