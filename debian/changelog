@@ -1,8 +1,36 @@
-icu (73.2-1deepin1) unstable; urgency=medium
+icu (74.2-1) experimental; urgency=medium
 
-  * Fix-broken-TestHebrewCalendarInTemporalLeapYear.
+  * New upstream release.
 
- -- LiChengGang <lichenggang@uniontech.com>  Thu, 12 Oct 2023 10:28:06 +0800
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Thu, 14 Dec 2023 08:53:50 +0100
+
+icu (74.1-1) experimental; urgency=medium
+
+  * New major upstream release.
+  * Building with Clang causes more problems, switch back to GCC.
+
+  [ Adrian Bunk <bunk@debian.org> ]
+  * Fix FTBFS with GCC 13 on i386 (closes: #1054253).
+
+  [ Vagrant Cascadian <vagrant@reproducible-builds.org> ]
+  * Make builds reproducible (closes: #1039624):
+    - debian/rules: Remove build paths from .inc and .tag files,
+    - debian/rules: Consistently use /bin/sh SHELL in .inc files.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Tue, 31 Oct 2023 22:07:13 +0100
+
+icu (74.1~rc-2) experimental; urgency=medium
+
+  * Build with Clang due to double type number precision with GCC on i386 and
+    hurd-i386 architectures.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sun, 15 Oct 2023 08:29:53 +0200
+
+icu (74.1~rc-1) experimental; urgency=medium
+
+  * New major upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sat, 07 Oct 2023 02:13:37 +0200
 
 icu (73.2-1) experimental; urgency=medium
 

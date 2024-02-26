@@ -1,3 +1,0 @@
-# libicu71 installs multiple shared libraries, none of which is
-# actually called libicu.so.71, but all of which are libicu*.so.71 .
-libicu71: package-name-doesnt-match-sonames libicudata71 libicui18n71 libicuio71 libicutest71 libicutu71 libicuuc71
