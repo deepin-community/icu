@@ -1,3 +1,9 @@
+icu (74.2-1deepin1) experimental; urgency=medium
+
+  * Rollback ICU GB18030-2022 PUA mappings.
+
+ -- renbin <renbin@uniontech.com>  Mon, 23 Dec 2024 09:35:52 +0800
+
 icu (74.2-1deepin0) experimental; urgency=medium
 
   * No source change upload against GCC 12.
