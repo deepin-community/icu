@@ -1,3 +1,4 @@
 icudata-stdlibs.patch
 broken_LICENSE.patch
 rollback_gb18030-2022_pua_mappings.patch
+0001-deepin-sw_64-debian.diff

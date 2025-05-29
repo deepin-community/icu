@@ -1,3 +1,9 @@
+icu (74.2-1deepin2) unstable; urgency=medium
+
+  * feat: add sw64 support.
+
+ -- hudeng <hudeng@deepin.org>  Thu, 29 May 2025 16:13:24 +0800
+
 icu (74.2-1deepin1) experimental; urgency=medium
 
   * Rollback ICU GB18030-2022 PUA mappings.
