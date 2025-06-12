@@ -1,3 +1,9 @@
+icu (74.2-1deepin2) unstable; urgency=medium
+
+  * add sw support.
+
+ -- liujianqiang <liujianqiang@uniontech.com>  Thu, 12 Jun 2025 11:33:06 +0800
+
 icu (74.2-1deepin1) experimental; urgency=medium
 
   * Rollback ICU GB18030-2022 PUA mappings.
