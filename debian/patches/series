@@ -2,3 +2,4 @@ icudata-stdlibs.patch
 broken_LICENSE.patch
 rollback_gb18030-2022_pua_mappings.patch
 uniontech0001-add-sw-support.patch
+0001-ICU-22973-Fix-buffer-overflow-by-using-CharString.patch

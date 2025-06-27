@@ -1,3 +1,9 @@
+icu (74.2-1deepin4) unstable; urgency=medium
+
+  * CVE-2025-5222: Stack-based buffer overflow.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Fri, 27 Jun 2025 16:34:10 +0800
+
 icu (74.2-1deepin3) unstable; urgency=medium
 
   * fix sw build error.
